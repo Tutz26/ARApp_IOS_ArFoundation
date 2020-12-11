@@ -51,7 +51,7 @@ public class UIController : MonoBehaviour
     public void ChangeToNextObject()
     {
 
-        if (selectionValue > gameObjectsAvailable.Length)
+        if (selectionValue + 1 > gameObjectsAvailable.Length)
         {
             selectionValue = 0;
         }
@@ -65,7 +65,7 @@ public class UIController : MonoBehaviour
     public void ChangeToPreviousObject()
     {
 
-        if (selectionValue < 0)
+        if (selectionValue - 1 < 0)
         {
             selectionValue = gameObjectsAvailable.Length;
         }
@@ -81,6 +81,11 @@ public class UIController : MonoBehaviour
 
         Scene scene = SceneManager.GetActiveScene(); SceneManager.LoadScene(scene.name); 
 
+    }
+
+    public void BackButton()
+    {
+        SceneManager.LoadScene("MainMenu"); 
     }
 
 

@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/ArProjectionScene.unity
-    guid: 56f38b2a2a3754accbb00a0c55f704ee
+    path: Assets/Scenes/MainMenu.unity
+    guid: 382bfad4d24e348dfb5fe27fd42bc4c1
+  - enabled: 1
+    path: Assets/Scenes/Plants.unity
+    guid: 815ba54ab2cf0413a8ddf885f9a03bd5
+  - enabled: 1
+    path: Assets/Scenes/Mushrooms.unity
+    guid: b78a1bea19e034dbba9257a2358aa6ab
+  - enabled: 1
+    path: Assets/Scenes/Trees.unity
+    guid: a096bf78a19814f849078a34a9c7a976
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
