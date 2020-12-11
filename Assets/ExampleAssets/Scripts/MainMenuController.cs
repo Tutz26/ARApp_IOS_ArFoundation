@@ -16,7 +16,7 @@ public class MainMenuController : MonoBehaviour
     void Start()
     {
        
-        sceneCount = SceneManager.sceneCountInBuildSettings - 1;
+        sceneCount = SceneManager.sceneCountInBuildSettings - 2;
         selectedScene = 0; 
         scenes = new string[sceneCount];
 
@@ -60,6 +60,11 @@ public class MainMenuController : MonoBehaviour
     public void OnClickStartButton()
     {
         SceneManager.LoadScene(scenes[selectedScene]); 
+    }
+
+        public void OnClickCreditsButton()
+    {
+        SceneManager.LoadScene("Credits"); 
     }
 
         // Update is called once per frame

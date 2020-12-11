@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Trees.unity
     guid: a096bf78a19814f849078a34a9c7a976
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: d31e5432c2dee43d0a82bd694277e807
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
