@@ -73,13 +73,13 @@ public class ARTapToPlaceObject : MonoBehaviour
 
                    if (spawnedObject == null)
                    {
-                       spawnedObject = Instantiate(objectToInstance, hitPose.position, hitPose.rotation);
+                       spawnedObject = Instantiate(objectToInstance, hitPose.position, objectToInstance.transform.rotation);
                        tempIndex = canvasSelection;
                    }
                    else
                    {
                        Destroy(spawnedObject);
-                       spawnedObject = Instantiate(objectToInstance, hitPose.position, hitPose.rotation);
+                       spawnedObject = Instantiate(objectToInstance, hitPose.position, objectToInstance.transform.rotation);
                        tempIndex = canvasSelection;
                    }
 

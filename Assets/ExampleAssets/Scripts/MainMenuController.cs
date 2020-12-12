@@ -16,19 +16,14 @@ public class MainMenuController : MonoBehaviour
     void Start()
     {
        
-        sceneCount = SceneManager.sceneCountInBuildSettings - 2;
+        sceneCount = 3;
         selectedScene = 0; 
         scenes = new string[sceneCount];
 
-        for(int i = 0; i < sceneCount; i++)
-        {
-            if (scenes[i] != "MainMenu" && scenes[i] != "Credits")
-            {
-            
-            scenes[i] = System.IO.Path.GetFileNameWithoutExtension( UnityEngine.SceneManagement.SceneUtility.GetScenePathByBuildIndex( i ) );
-            
-            }
-        }
+        scenes[0] = "Plants";
+        scenes[1] = "Mushrooms";
+        scenes[2] = "Trees";
+
     }
 
     public void onSelectionRightClick()

@@ -381,9 +381,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canvasObject: {fileID: 592859875101015556}
   gameObjectsAvailable:
-  - {fileID: 5137207298720464061, guid: 66fe64b9bbf1043668c12690779bfef2, type: 3}
-  - {fileID: 7414126791596113512, guid: fe573e7abb8af466791f07600c0785e3, type: 3}
-  - {fileID: 7683808304329939304, guid: c6ad61e57023042c2af24c831c4a8357, type: 3}
+  - {fileID: 797726951552108302, guid: 86e924ef2b29c441ea57167bfe5e0bdf, type: 3}
+  - {fileID: 1498014827858900597, guid: b3cf7069296c349eb9a69e79100fa449, type: 3}
+  - {fileID: 8663178759055605276, guid: 7034122ca6efb4af6a6e609619ab96c6, type: 3}
 --- !u!114 &388525034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1194,9 +1194,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selectedMeshText: {fileID: 592859874660309399}
   gameObjectsAvailable:
-  - {fileID: 5137207298720464061, guid: 66fe64b9bbf1043668c12690779bfef2, type: 3}
-  - {fileID: 7414126791596113512, guid: fe573e7abb8af466791f07600c0785e3, type: 3}
-  - {fileID: 7683808304329939304, guid: c6ad61e57023042c2af24c831c4a8357, type: 3}
+  - {fileID: 797726951552108302, guid: 86e924ef2b29c441ea57167bfe5e0bdf, type: 3}
+  - {fileID: 1498014827858900597, guid: b3cf7069296c349eb9a69e79100fa449, type: 3}
+  - {fileID: 8663178759055605276, guid: 7034122ca6efb4af6a6e609619ab96c6, type: 3}
+  dataInfoText: {fileID: 0}
 --- !u!225 &592859875101015561
 CanvasGroup:
   m_ObjectHideFlags: 0

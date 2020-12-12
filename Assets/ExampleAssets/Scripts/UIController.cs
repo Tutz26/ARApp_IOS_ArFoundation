@@ -8,8 +8,11 @@ public class UIController : MonoBehaviour
 {
 
     public Text selectedMeshText;
+    private Text descriptionText;
+    private string testTextName;
 
     public GameObject[] gameObjectsAvailable;
+    public Text dataInfoText;
 
     private GameObject currentMeshObject;
     private GameObject nextMeshObject;
@@ -87,6 +90,5 @@ public class UIController : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu"); 
     }
-
 
 }
